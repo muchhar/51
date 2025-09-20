@@ -35,7 +35,7 @@ def predict():
 # Preprocess data function
 def preprocess_data(data):
     # Assuming 'data' is a 2D NumPy array with shape (10, 7)
-    # +91 7202883415
+    
     scaled_data = scaler.transform(data)
     return np.reshape(scaled_data, (1, len(data), 7))  # Shape as required for the model
 
